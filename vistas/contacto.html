@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+
+    <title>Contacto The Coffee Shop</title>
+</head>
+
+<body>
+    <!--COMIENZA MENU NAVEGACION-->
+    <header>
+        <nav class="nav">
+            <a title="Home" href="../index.html" class="logo-home"> <img src="../resources/img/LogoTCS.png"></a>
+            
+            <ul class="nav_text">
+                <!--<li><a href="../index.html"> Home </a></li>-->
+                <li><a href="./menu-cafe.html"> Menú </a></li>
+                <li><a href="./nosotros.html"> Nosotros </a></li>
+                <li><a href="./galeria.html"> Galeria </a></li>
+                <li><a href="./contacto.html"> Contacto </a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--TERMINA MENU NAVEGACION-->
+
+    <!--COMIENZA FORMULARIO CONTACTO-->
+<div>
+    <h1 class="titulo">Contacto</h1>
+    <h2 class="h2-contact">Dejanos tu comentario, sugerencia, queja, o chismesito aqui:</h2>
+</div>
+
+<article class="cont-form">
+    <form class="container-form" action="#">
+
+        <div class="contacto-cont-a">
+            <label for="nombre">Nombre:<br>
+            <input type="text" placeholder="Aqui va tu nombre">
+            </label>
+            
+            <label for="email">Aqui va tu email:<br>
+            <input type="email" placeholder="XXXXX@gmail.com" name="email"><br>
+            </label>
+
+            <label for="Mensaje"> Mensaje:<br>
+            <textarea placeholder="Mensaje"></textarea>
+            </label>
+        </div>
+        
+        <div class="contacto-cont-b">
+            <div class="form-a">
+                <p>Género:</p>
+                <div><input type="radio" name="lado" value="femenino"> Femenino </div>
+                <div><input type="radio" name="lado" value="masculino"> Masculino </div>
+                <div><input type="radio" name="lado" value="nada"> Preifero no especificar </div>
+            </div>
+            
+            <div class="form-b">
+                <p>¿En qué ubicación nos visitas?</p>
+                <select name="letra" id="letra">
+                    <option value="none">Elige una opción</option>
+                    <option value="x">CDMX</option>
+                    <option value="y">MTY</option>
+                    <option value="z">GDL</option>
+                </select>
+            </div>
+            
+            <div class="form-c">
+                <p>¿Te gustaría recibir más información sobre nosotros?</p>
+                <div><input type="checkbox" name="acepta" value="1">Jalo!</div>
+                <div><input type="checkbox" name="declina" value="1">Safo!</div>               
+                <div><input type="submit" value="Enviar"></div>
+            </div>
+        </div>
+    </form>
+</article>
+
+    <!-- TERMINA FORMULARIO -->
+
+    <!--COMIENZA FOOTER-->
+    <footer class="footer-contact">
+        <p> Follow us:
+        <a href="https://wwww.fb.com"> on Facebook </a></p>
+        <p> The Coffee Shop Copyright 2022, All Rights Reserverd.</p>
+    </footer>
+    <!--TERMINA FOOTER-->
+
+</body>
+</html>
